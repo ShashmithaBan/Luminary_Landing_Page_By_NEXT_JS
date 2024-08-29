@@ -2,6 +2,7 @@ import Image from 'next/image'
 import React from 'react'
 import { Nav } from './Nav'
 import { ContactBtn } from './ContactBtn'
+import { MobileNav } from './MobileNav'
 
 export const Navbar = () => {
   return (
@@ -14,16 +15,18 @@ export const Navbar = () => {
           alt='Luminary Logo' 
           width={100}
           height={1}
-          className='w-[130px] md:w-[150px] h-[70px] object-cover'
+          className='w-[100px] md:w-[130px] h-[70px] object-cover'
         />
       </div>
-      <div className='md:flex hidden'>
+      <div className='lg:flex hidden'>
         <Nav/>
       </div>
-      <div className='md:flex hidden'>
+      <div className='lg:flex hidden'>
         <ContactBtn/>
       </div>
-
+    <div className='lg:hidden'>
+      <MobileNav/>
+    </div>
     </div>
         </div>
 

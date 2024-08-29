@@ -2,6 +2,6 @@ import React from 'react'
 
 export const TechStacks = () => {
   return (
-    <div>TechStacks</div>
+    <section id='techstacks' className='h-screen'>TechStacks</section>
   )
 }

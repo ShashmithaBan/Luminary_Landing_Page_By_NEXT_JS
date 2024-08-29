@@ -2,6 +2,6 @@ import React from 'react'
 
 export const Projects = () => {
   return (
-    <div>Projects</div>
+    <section id='projects' className='h-screen'>Projects</section>
   )
 }

@@ -2,6 +2,6 @@ import React from 'react'
 
 export const Pricing = () => {
   return (
-    <div>Pricing</div>
+    <section id='pricing' className='h-screen justify-center items-center'>Pricing</section>
   )
 }

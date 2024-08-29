@@ -49,12 +49,11 @@ export const Nav = () => {
         <Link
           href={link.path}
           key={index}
-          className={`capitalize font-sans font-thin hover:text-accent transition-all ${
-            activeLink === link.path ? "text-blue-500 border-b-2 border-blue-500" : ""
+          className={`capitalize font-sans font-light text-sm hover:text-accent transition-all ${
+            activeLink === link.path ? "text-primary font-medium border-b-2 border-blue-500" : ""
           }`}
         >
-          <a>{link.name}</a> {/* Ensure to use the 'a' tag for Next.js Link component */}
-        </Link>
+          {link.name}</Link>
       ))}
     </nav>
   );
